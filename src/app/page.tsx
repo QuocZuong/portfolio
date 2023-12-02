@@ -4,6 +4,9 @@ import Link from "next/link";
 export default function Home() {
     return (
         <main className="w-screen h-screen relative">
+            <head>
+                <link rel="shortcut icon" href="sakuraLogo.png" type="image/x-icon" />
+            </head>
             <div
                 className="flex items-center w-full h-full bg-cover bg-center"
                 style={{ backgroundImage: "url(main-bg.webp)" }}
